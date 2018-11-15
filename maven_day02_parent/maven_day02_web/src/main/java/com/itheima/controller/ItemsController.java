@@ -19,6 +19,7 @@ public class ItemsController {
         Items items = itemsService.findById(1);
         model.addAttribute("item", items);
         return "itemDetail";
+        //sout
 	
     }
 }
